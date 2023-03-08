@@ -8,7 +8,7 @@ import "./index.css";
 // Import Components
 import Header from "./components/Header.js";
 import QOD from "./components/QuoteofdaDay.js";
-import Attribution from "./components/Attributions";
+// import Attribution from "./components/Attributions";
 
 // Root Elements
 const root = ReactDOM.createRoot(document.getElementById("root"));
