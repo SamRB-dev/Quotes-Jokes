@@ -26,7 +26,7 @@ function Header() {
           </ul>
         </div>
 
-        <h2 className="nav-note">New Quotes will be Available in Every 10 minutes</h2>
+        <h2 className="nav-note">New Quotes will be Available in Every 24hrs by the API Provider</h2>
       </nav>
     </Router>
   );
