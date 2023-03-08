@@ -1,0 +1,58 @@
+@import url("./base/Generic.css");
+
+.nav {
+  position: relative;
+}
+
+.nav-logo {
+  font-family: var(--Custom-BullettoKilla);
+  font-size: 1.5rem;
+}
+
+.nav-logo h2 {
+  position: relative;
+  top: 18px;
+  left: 5%;
+  color: var(--White-v2);
+}
+
+.nav-github-fork {
+  background-color: black;
+  padding: 1.27%;
+  width: 21.4%;
+  text-align: center;
+  position: relative;
+  top: -18px;
+  left: 82%;
+  transform: rotate(37deg);
+}
+
+.nav-github-fork a {
+  text-decoration: none;
+  color: white;
+  padding: 5% 15%;
+  font-family: var(--RobotoCondensed);
+}
+
+.quote-or-jokes a {
+  text-decoration: none;
+  color: var(--White-v2);
+  font-family: var(--Custom-BlendaScript);
+}
+
+.quote-or-jokes ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-or-jokes li {
+  padding: 10px 20px;
+}
+
+.nav-note {
+  font-family: var(--RobotoCondensed);
+  text-align: center;
+  color: var(--White-v2);
+  margin: 1% auto;
+}

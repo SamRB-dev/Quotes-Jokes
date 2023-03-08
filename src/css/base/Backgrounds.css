@@ -1,0 +1,15 @@
+.Custom-Gradiant-Linear-1 {
+  /* Created with https://www.css-gradient.com */
+  background: #6c1a99;
+  background: -webkit-linear-gradient(top left, #6c1a99, #f337d0);
+  background: -moz-linear-gradient(top left, #6c1a99, #f337d0);
+  background: linear-gradient(to bottom right, #6c1a99, #f337d0);
+}
+
+.Custom-Gradiant-Linear-2 {
+  /* Created with https://www.css-gradient.com */
+  background: #300433;
+  background: -webkit-linear-gradient(top left, #300433, #a44fa0);
+  background: -moz-linear-gradient(top left, #300433, #a44fa0);
+  background: linear-gradient(to bottom right, #300433, #a44fa0);
+}

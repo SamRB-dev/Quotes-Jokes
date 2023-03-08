@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Condensed&display=swap');
+
+
+@font-face {
+    font-family: "BullettoKilla";
+    src: url("../fonts/Bulletto\ Killa.ttf");
+}
+
+@font-face {
+    font-family: "BlendaScript";
+    src: url("../fonts/Blenda\ Script.otf");
+}
+
+:root {
+    --RobotoCondensed: 'Roboto Condensed', sans-serif;
+    --Custom-BullettoKilla: BullettoKilla, sans-serif;
+    --Custom-BlendaScript: BlendaScript, sans-serif;
+}
