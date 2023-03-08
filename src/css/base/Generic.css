@@ -1,3 +1,7 @@
 @import url("./Fonts.css"); /* Fonts */
 @import url("./Colors.css"); /* Colors */
 @import url("./Backgrounds.css"); /* Backgrounds */
+
+a:link, a:visited, a:active {
+    color: var(--White);
+}
