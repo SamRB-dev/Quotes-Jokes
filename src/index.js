@@ -1,27 +1,27 @@
 // Import React modules
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Import CSS
 import "./index.css";
 
-// Import Components
+// Import Components/Pages
 import Header from "./components/Header.js";
-import QOD from "./components/QuoteofdaDay.js";
 // import Attribution from "./components/Attributions";
+import Jokes from "./pages/jokes";
+import Homepage from "./pages/homepage";
 
 // Root Elements
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Header />
-    <QOD qid="2" />
-    <QOD qid="0" />
-    <QOD qid="1" />
-    <QOD qid="3" />
-    <QOD qid="4" />
-    <QOD qid="5" />
-    <QOD qid="6" />
-    <QOD qid="7" />
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/jokes" element={<Jokes />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );

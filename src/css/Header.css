@@ -49,10 +49,3 @@
 .quote-or-jokes li {
   padding: 10px 20px;
 }
-
-.nav-note {
-  font-family: var(--RobotoCondensed);
-  text-align: center;
-  color: var(--White-v2);
-  margin: 1% auto;
-}
