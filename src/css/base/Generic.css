@@ -2,6 +2,6 @@
 @import url("./Colors.css"); /* Colors */
 @import url("./Backgrounds.css"); /* Backgrounds */
 
-a:link, a:visited, a:active {
+a:link, a:visited {
     color: var(--White);
 }
