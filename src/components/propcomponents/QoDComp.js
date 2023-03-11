@@ -12,11 +12,11 @@ function QoDComp(props) {
         <h3 id="quote-author">- {props ? props.author : "Loading.."}</h3>
       </div>
       <h4 id="quote-details">
-        Category:{" "}
+        Category:
         <span id="quote-details-value" className="Custom-Gradiant-Linear-2">
           {props ? props.category : "Loading.."}
         </span>
-        Source:{" "}
+        Source:
         <span id="quote-details-value" className="Custom-Gradiant-Linear-2">
           <a href={props ? props.permalink : "#"}>They Said So®</a>
         </span>

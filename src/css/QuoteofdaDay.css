@@ -75,3 +75,38 @@
   color: var(--White-v2);
   margin: 1% auto;
 }
+
+@media screen and (max-device-width: 480px) {
+  .qod-container {
+    width: 95%;
+    margin: 12.5% auto;
+  }
+
+  .quote-of-the-day-wrapper h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  #quote {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  #quote::before {
+    font-size: 1.3rem;
+  }
+
+  #quote::after {
+    font-size: 1.3rem;
+  }
+
+  #quote-author {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  #quote-details {
+    font-size: 0.8rem;
+  }
+}

@@ -7,8 +7,15 @@ section {
     top: 29.5%;
 }
 
+section h2 {
+    font-family: var(--Custom-BlendaScript);
+    color: var(--White-v2);
+    font-size: 2.3rem;
+}
+
 .list {
     list-style: square;
+    color: var(--White-v2);
 }
 
 .list li {
@@ -17,4 +24,10 @@ section {
 
 .list li a {
     color: var(--White-v2);
+}
+
+@media screen and (max-device-width: 480px) {
+    section{
+        display: none;
+    }
 }

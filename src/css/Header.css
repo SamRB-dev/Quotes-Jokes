@@ -49,3 +49,20 @@
 .quote-or-jokes li {
   padding: 10px 20px;
 }
+
+@media screen and (max-device-width: 480px) {
+  .nav-logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-github-fork {
+    left: 65%;
+    width: 40.4%;
+    font-size: 0.8rem;
+  }
+
+  .note {
+    font-size: 0.8rem;
+    margin: 3% auto;
+  }
+}
