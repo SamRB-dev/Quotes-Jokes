@@ -13,3 +13,11 @@
   background: -moz-linear-gradient(top left, #300433, #a44fa0);
   background: linear-gradient(to bottom right, #300433, #a44fa0);
 }
+
+.Custom-Gradiant-Linear-3 {
+  /* Created with https://www.css-gradient.com */
+  background: #6616e2;
+  background: -webkit-linear-gradient(top left, #6616e2, #3cb4ce);
+  background: -moz-linear-gradient(top left, #6616e2, #3cb4ce);
+  background: linear-gradient(to bottom right, #6616e2, #3cb4ce);
+}

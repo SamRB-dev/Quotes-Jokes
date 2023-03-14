@@ -1,7 +1,9 @@
 @import url("./base/Generic.css");
 
 .qod-container {
-  margin: 5% 10%;
+  margin: 4.5% 0;
+  margin-left: 21%;
+  width: 76%;
 }
 
 .quote-of-the-day-wrapper {
@@ -13,7 +15,7 @@
 
 .quote-of-the-day-wrapper h2 {
   font-family: var(--Custom-BlendaScript);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   letter-spacing: 10px;
   margin-bottom: 2.8%;
 }
@@ -25,28 +27,28 @@
   font-family: var(--RobotoCondensed);
   padding: 0 25px;
   text-align: justify;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   color: var(--White-v2);
 }
 
 #quote::before {
   content: "\201C";
-  font-size: 3rem;
+  font-size: 1.9rem;
   margin: 0 10px;
 }
 
 #quote::after {
   content: "\201D";
-  font-size: 3rem;
+  font-size: 1.9rem;
   margin: 0 10px;
 }
 
 #quote-author {
   text-align: right;
   margin-right: 5%;
-  margin-top: 2.8%;
+  margin-top: 1.4%;
   font-family: var(--Custom-BlendaScript);
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* color: rgb(26, 25, 25); */
   color: var(--White);
   letter-spacing: 5px;
@@ -65,4 +67,46 @@
   padding: 10px 20px;
   color: var(--White);
   margin-right: 5px;
+}
+
+.note {
+  font-family: var(--RobotoCondensed);
+  text-align: center;
+  color: var(--White-v2);
+  margin: 1% auto;
+}
+
+@media screen and (max-device-width: 480px) {
+  .qod-container {
+    width: 95%;
+    margin: 12.5% auto;
+  }
+
+  .quote-of-the-day-wrapper h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  #quote {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  #quote::before {
+    font-size: 1.3rem;
+  }
+
+  #quote::after {
+    font-size: 1.3rem;
+  }
+
+  #quote-author {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  #quote-details {
+    font-size: 0.8rem;
+  }
 }
