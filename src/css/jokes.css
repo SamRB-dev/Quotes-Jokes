@@ -1,0 +1,44 @@
+@import url("./base/Generic.css");
+
+#container {
+    margin: 5% 15%;
+    text-align: center;
+}
+
+#punchline {
+    color: var(--White-v2);
+    padding: 7.5% 10%;
+    border-radius: 15px;
+    filter: brightness(70%);
+    font-family: var(--RobotoCondensed);
+}
+
+#details {
+    color: var(--White-v2);
+    margin: 4% auto;
+    font-family: var(--Custom-BlendaScript);
+}
+
+#span-value{
+    padding: 2% 5%;
+}
+
+#note {
+    font-family: var(--RobotoCondensed);
+    text-align: center;
+    margin: 5% auto;
+}
+
+@media screen and (max-device-width: 480px) {
+    #container {
+        margin: 5% 3%;
+    }
+    
+    #punchline {
+        font-size: 1.5rem;
+    }
+
+    #note {
+        font-size: 1.2rem;
+    }
+}

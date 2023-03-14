@@ -1,9 +1,8 @@
 // Imports
 import "../../css/QuoteofdaDay.css";
-import { useId } from "react";
 
 function QoDComp(props) {
-  const containerID = useId();
+  const containerID = props.id;
   return (
     <div className="qod-container" id={containerID}>
       <div className="quote-of-the-day-wrapper Custom-Gradiant-Linear-1">

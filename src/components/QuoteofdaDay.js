@@ -57,6 +57,7 @@ function QOD(props) {
 
   return (
     <QoDComp
+      id={props.id}
       title={qod.title}
       quote={qod.quote}
       author={qod.author}
