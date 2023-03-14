@@ -27,6 +27,7 @@
     font-family: var(--RobotoCondensed);
     text-align: center;
     margin: 5% auto;
+    color: var(--White-v2);
 }
 
 @media screen and (max-device-width: 480px) {
